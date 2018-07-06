@@ -14,7 +14,7 @@ $(function(){
         // Filter selected members to red (exclude selected members)
         $('#table td').removeClass("selected").eq(selectedMenber[menber]).addClass("selected");
       },time);
-      // Disable the start button
+      // Disable the start and reset button
       $('#start,#reset').prop('disabled',true);
       // Deactivate stop button
       $('#stop').prop('disabled',false);
