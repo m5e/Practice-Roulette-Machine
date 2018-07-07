@@ -5,41 +5,51 @@
     <meta charset="UTF-8">
     <title>ROULETTE MACHINE</title>
     <link rel="stylesheet" type="text/css" href="roulette.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="roulette.js"></script>
 </head>
 
 <body>
-    <table id="table" border="3" cellpadding="5">
-        <tr>
-            <td>aaa</td>
-            <td>bbb</td>
-            <td>ccc</td>
-            <td>ddd</td>
-        </tr>
-        <tr>
-            <td>eee</td>
-            <td>fff</td>
-            <td>ggg</td>
-            <td>hhh</td>
-        </tr>
-        <tr>
-            <td>iii</td>
-            <td>jjj</td>
-            <td>kkk</td>
-            <td>lll</td>
-        </tr>
-        <tr>
-            <td>mmm</td>
-            <td>nnn</td>
-            <td>ooo</td>
-            <td>ppp</td>
-        </tr>
+    <h3 class="teal-text text-accent-4">今日の晩御飯ルーレット</h3>
+    <table id="table" class="centered">
+
+        <tbody>
+            <tr>
+                <td>teritama</td>
+                <td>gyukatsu</td>
+                <td>omuraisu</td>
+                <td>pasta</td>
+            </tr>
+            <tr>
+                <td>yakitori</td>
+                <td>osashimi</td>
+                <td>ma-bo-douhu</td>
+                <td>ra-men</td>
+            </tr>
+            <tr>
+                <td>okonomiyaki</td>
+                <td>hiyasichuuka</td>
+                <td>curry</td>
+                <td>tonkatsu</td>
+            </tr>
+            <tr>
+                <td>danjiki</td>
+                <td>oyakodon</td>
+                <td>ebichiri</td>
+                <td>udon</td>
+            </tr>
+        </tbody>
     </table>
     <div id="dev">
-        <input type="button" value="start" id="start" />
-        <input type="button" value="stop" id="stop" />
-        <input type="button" value="reset" id="reset" />
+        <a input type="button" class="waves-effect waves-light btn" id="start">
+            <i class="material-icons left">cached</i>start</a>
+        <a input type="button" class="waves-effect waves-light btn" id="stop">
+            <i class="material-icons left">error</i>stop</a>
+        <a input type="button" class="waves-effect waves-light btn" id="reset">
+            <i class="material-icons left">cancel</i>reset</a>
     </div>
 </body>
 

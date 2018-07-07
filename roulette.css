@@ -1,2 +1,8 @@
 .confirm{background-Color:rgb(33, 240, 240);}
-.selected{background-Color:rgb(245, 167, 245);}
+.selected{background-Color:rgb(231, 141, 231);}
+
+.table {
+    border:"3";
+    padding:"5";
+    border-radius: 6px;
+  }
