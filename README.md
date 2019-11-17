@@ -6,3 +6,4 @@ https://m5e.github.io/Practice-Roulette-Machine/roulette.html
 ## 推奨ブラウザ
 * IE
 * Chrome
+* Edge
